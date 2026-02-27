@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+*.pot
+*.pyc
+
+# Ambiente virtual (específico Windows)
+venv/
+venv.bak/
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# IDE e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Projeto
+*.sql
+*.sqlite3
+*.db
+/media/
+/static/
+/staticfiles/
+
+# Arquivos de segredos e configurações sensíveis
+.env
+*.env
+secrets.py
+settings_local.py
+*.pem
+*.key
+
+# Arquivos de backup
+*.bak
+*.orig
+*.log
+*.pot
+*.mo
+*.egg-info/
+dist/
+build/
+
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Arquivos do PowerShell
+Profile.ps1
+*.ps1
+!activate.ps1  # Exceto o script de ativação do venv
